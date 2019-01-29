@@ -1,0 +1,26 @@
+.priority-labels .options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priority-labels .options button {
+  background: none;
+  border: 1px solid #AAA;
+  outline: none;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.priority-labels .options button:hover {
+  background: #F5F5F5;
+}
+.priority-labels .options button:active {
+  background: #EAEAEA;
+}
+
+.priority-labels .options button.selected-P0 { background: #e11d21}
+.priority-labels .options button.selected-P1 { background: #d93f0b}
+.priority-labels .options button.selected-P2 { background: #f9bda4}
+.priority-labels .options button.selected-P3 { background: #fad8c7}
+.priority-labels .options button.selected-P4 { background: #fef2c0}
+.priority-labels .options button.selected-P5 { background: #fef2c0}
